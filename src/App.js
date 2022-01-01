@@ -11,7 +11,6 @@ function App() {
         <ColorChangeButton color='red' setColor={setColor} />
         <ColorChangeButton color='blue' setColor={setColor} />
         <ColorChangeButton color='yellow' setColor={setColor} />
-        {color}
         <button className='red' onClick={() => setColor('red')}>
         red
         </button>
